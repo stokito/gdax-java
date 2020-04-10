@@ -32,7 +32,7 @@ import static com.coinbase.exchange.api.websocketfeed.message.Channel.*;
 public class OrderBookView extends JPanel {
 
     static final Logger log = LoggerFactory.getLogger(OrderBookView.class);
-    static String[] productIds = new String[]{"BTC-GBP", "ETH-BTC"}; // make this configurable.
+    static String[] productIds = new String[]{"LTC-USD", "LTC-BTC"}; // make this configurable.
 
     private boolean isAlive;
 
